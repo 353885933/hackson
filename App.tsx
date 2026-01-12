@@ -1,4 +1,3 @@
-
 import React, { useState, useRef, useEffect } from 'react';
 import { analyzeBookContent, generateSceneImage, generateSceneVideo } from './services/geminiService';
 import { BookAnalysis, AppStatus, Scene } from './types';
@@ -618,11 +617,11 @@ const App: React.FC = () => {
                     <p className="text-sm opacity-80 leading-relaxed font-mono">
                         寻找志同道合的开发者。
                         <br/>
-                        <span className="text-[var(--color-accent)]">></span> 善于解决 Bug
+                        <span className="text-[var(--color-accent)]">&gt;</span> 善于解决 Bug
                         <br/>
-                        <span className="text-[var(--color-accent)]">></span> 深刻理解模型边界与 Agent 架构
+                        <span className="text-[var(--color-accent)]">&gt;</span> 深刻理解模型边界与 Agent 架构
                         <br/>
-                        <span className="text-[var(--color-accent)]">></span> Vibe Coding 玩家狂喜
+                        <span className="text-[var(--color-accent)]">&gt;</span> Vibe Coding 玩家狂喜
                     </p>
                  </div>
                  
